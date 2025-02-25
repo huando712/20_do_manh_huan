@@ -125,24 +125,24 @@ elif n==10:
     print("tháng 10 có 31 ngày")
 elif n==11:
     print("tháng 11 có 30 ngày")
-elif n==12:
-    print("tháng 12 có 31 ngày")
-else:
-    print("nhập sai")
+# elif n==12:
+#     print("tháng 12 có 31 ngày")
+# else:
+#     print("nhập sai")
 
 
-def doc_so_3_chu_so(n):
-    hang_tram = ["", "Một trăm", "Hai trăm", "Ba trăm", "Bốn trăm", "Năm trăm",
-                 "Sáu trăm", "Bảy trăm", "Tám trăm", "Chín trăm"]
-    hang_chuc = ["", "mười", "hai mươi", "ba mươi", "bốn mươi", "năm mươi",
-                 "sáu mươi", "bảy mươi", "tám mươi", "chín mươi"]
-    hang_dv = ["", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín"]
+# def doc_so_3_chu_so(n):
+#     hang_tram = ["", "Một trăm", "Hai trăm", "Ba trăm", "Bốn trăm", "Năm trăm",
+#                  "Sáu trăm", "Bảy trăm", "Tám trăm", "Chín trăm"]
+#     hang_chuc = ["", "mười", "hai mươi", "ba mươi", "bốn mươi", "năm mươi",
+#                  "sáu mươi", "bảy mươi", "tám mươi", "chín mươi"]
+#     hang_dv = ["", "một", "hai", "ba", "bốn", "năm", "sáu", "bảy", "tám", "chín"]
 
-    t, c, d = n // 100, (n // 10) % 10, n % 10
-    print(f"{hang_tram[t]} {'lẻ' if c == 0 and d else hang_chuc[c]} {'lăm' if d == 5 and c else hang_dv[d]}".strip())
+#     t, c, d = n // 100, (n // 10) % 10, n % 10
+#     print(f"{hang_tram[t]} {'lẻ' if c == 0 and d else hang_chuc[c]} {'lăm' if d == 5 and c else hang_dv[d]}".strip())
 
-n = int(input("Nhập số nguyên có 3 chữ số: "))
-doc_so_3_chu_so(n)
+# n = int(input("Nhập số nguyên có 3 chữ số: "))
+# doc_so_3_chu_so(n)
 
 
 # tnct=int(input("nhập thâm niên công tác"))
