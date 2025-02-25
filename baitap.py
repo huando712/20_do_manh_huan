@@ -145,15 +145,15 @@ n = int(input("Nhập số nguyên có 3 chữ số: "))
 doc_so_3_chu_so(n)
 
 
-tnct=int(input("nhập thâm niên công tác"))
-luong_co_ban=1350000
-if tnct<12:
-    he_so=2.34
-elif 12<= tnct<36:
-    he_so=3.33
-elif 36<= tnct <60:
-    he_so=3.36
-else:
-    he_so=3.99
-luong=he_so*luong_co_ban
-print(f"lương của nhân viên là : {luong}")
+# tnct=int(input("nhập thâm niên công tác"))
+# luong_co_ban=1350000
+# if tnct<12:
+#     he_so=2.34
+# elif 12<= tnct<36:
+#     he_so=3.33
+# elif 36<= tnct <60:
+#     he_so=3.36
+# else:
+#     he_so=3.99
+# luong=he_so*luong_co_ban
+# print(f"lương của nhân viên là : {luong}")
